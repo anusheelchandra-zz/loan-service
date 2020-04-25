@@ -1,7 +1,4 @@
-# Loan Service
-
-
-###Overview 
+# Loan Service 
 
 Loan Service is a RestFul API for generating loan plans. It has a RestFul API to integrate with.
 
