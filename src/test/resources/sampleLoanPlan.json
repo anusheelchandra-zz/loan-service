@@ -1,0 +1,194 @@
+[
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-05-01T00:00:01",
+    "interest": 20.83,
+    "principal": 198.53,
+    "initialOutstandingPrincipal": 5000,
+    "remainingOutstandingPrincipal": 4801.47
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-06-01T00:00:01",
+    "interest": 20.01,
+    "principal": 199.35,
+    "initialOutstandingPrincipal": 4801.47,
+    "remainingOutstandingPrincipal": 4602.12
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-07-01T00:00:01",
+    "interest": 19.18,
+    "principal": 200.18,
+    "initialOutstandingPrincipal": 4602.12,
+    "remainingOutstandingPrincipal": 4401.94
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-08-01T00:00:01",
+    "interest": 18.34,
+    "principal": 201.02,
+    "initialOutstandingPrincipal": 4401.94,
+    "remainingOutstandingPrincipal": 4200.92
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-09-01T00:00:01",
+    "interest": 17.5,
+    "principal": 201.86,
+    "initialOutstandingPrincipal": 4200.92,
+    "remainingOutstandingPrincipal": 3999.06
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-10-01T00:00:01",
+    "interest": 16.66,
+    "principal": 202.7,
+    "initialOutstandingPrincipal": 3999.06,
+    "remainingOutstandingPrincipal": 3796.36
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-11-01T00:00:01",
+    "interest": 15.82,
+    "principal": 203.54,
+    "initialOutstandingPrincipal": 3796.36,
+    "remainingOutstandingPrincipal": 3592.82
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2020-12-01T00:00:01",
+    "interest": 14.97,
+    "principal": 204.39,
+    "initialOutstandingPrincipal": 3592.82,
+    "remainingOutstandingPrincipal": 3388.43
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-01-01T00:00:01",
+    "interest": 14.12,
+    "principal": 205.24,
+    "initialOutstandingPrincipal": 3388.43,
+    "remainingOutstandingPrincipal": 3183.19
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-02-01T00:00:01",
+    "interest": 13.26,
+    "principal": 206.1,
+    "initialOutstandingPrincipal": 3183.19,
+    "remainingOutstandingPrincipal": 2977.09
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-03-01T00:00:01",
+    "interest": 12.4,
+    "principal": 206.96,
+    "initialOutstandingPrincipal": 2977.09,
+    "remainingOutstandingPrincipal": 2770.13
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-04-01T00:00:01",
+    "interest": 11.54,
+    "principal": 207.82,
+    "initialOutstandingPrincipal": 2770.13,
+    "remainingOutstandingPrincipal": 2562.31
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-05-01T00:00:01",
+    "interest": 10.68,
+    "principal": 208.68,
+    "initialOutstandingPrincipal": 2562.31,
+    "remainingOutstandingPrincipal": 2353.63
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-06-01T00:00:01",
+    "interest": 9.81,
+    "principal": 209.55,
+    "initialOutstandingPrincipal": 2353.63,
+    "remainingOutstandingPrincipal": 2144.08
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-07-01T00:00:01",
+    "interest": 8.93,
+    "principal": 210.43,
+    "initialOutstandingPrincipal": 2144.08,
+    "remainingOutstandingPrincipal": 1933.65
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-08-01T00:00:01",
+    "interest": 8.06,
+    "principal": 211.3,
+    "initialOutstandingPrincipal": 1933.65,
+    "remainingOutstandingPrincipal": 1722.35
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-09-01T00:00:01",
+    "interest": 7.18,
+    "principal": 212.18,
+    "initialOutstandingPrincipal": 1722.35,
+    "remainingOutstandingPrincipal": 1510.17
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-10-01T00:00:01",
+    "interest": 6.29,
+    "principal": 213.07,
+    "initialOutstandingPrincipal": 1510.17,
+    "remainingOutstandingPrincipal": 1297.1
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-11-01T00:00:01",
+    "interest": 5.4,
+    "principal": 213.96,
+    "initialOutstandingPrincipal": 1297.1,
+    "remainingOutstandingPrincipal": 1083.14
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2021-12-01T00:00:01",
+    "interest": 4.51,
+    "principal": 214.85,
+    "initialOutstandingPrincipal": 1083.14,
+    "remainingOutstandingPrincipal": 868.29
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2022-01-01T00:00:01",
+    "interest": 3.62,
+    "principal": 215.74,
+    "initialOutstandingPrincipal": 868.29,
+    "remainingOutstandingPrincipal": 652.55
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2022-02-01T00:00:01",
+    "interest": 2.72,
+    "principal": 216.64,
+    "initialOutstandingPrincipal": 652.55,
+    "remainingOutstandingPrincipal": 435.91
+  },
+  {
+    "borrowerPaymentAmount": 219.36,
+    "date": "2022-03-01T00:00:01",
+    "interest": 1.82,
+    "principal": 217.54,
+    "initialOutstandingPrincipal": 435.91,
+    "remainingOutstandingPrincipal": 218.37
+  },
+  {
+    "borrowerPaymentAmount": 219.28,
+    "date": "2022-04-01T00:00:01",
+    "interest": 0.91,
+    "principal": 218.37,
+    "initialOutstandingPrincipal": 218.37,
+    "remainingOutstandingPrincipal": 0
+  }
+]
