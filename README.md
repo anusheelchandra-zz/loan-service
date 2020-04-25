@@ -1,6 +1,6 @@
 # Loan Service 
 
-Loan Service is a RestFul API for generating loan plans. It has a RestFul API to integrate with.
+Loan Service is a microservice for generating loan plans. It has a RestFul API to integrate with.
 
 ### Topics
   * [What does it do ?](#technical-details)
