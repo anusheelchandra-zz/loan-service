@@ -10,7 +10,7 @@ Loan Service is a RestFul API for generating loan plans. It has a RestFul API to
 
 
 ###  [What does it do ?](#technical-details)
-This api generates loan plan for a given loan request parameters and returns a plan for payment of loan ove the loan duration
+This api generates loan plan for a given loan request and returns a plan for repayment of loan over the loan duration
 
 ###  [How to use it ?](#guide)
 One can use this api very easily by hiting the RestFul endpoint which when provided with appropriate loan request will return a loan plan.
