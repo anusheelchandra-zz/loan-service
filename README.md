@@ -33,7 +33,7 @@ loan plan which is a list of loan repayments and would look similar to [loan res
  	"startDate": "2020-05-01T00:00:01Z"
  }`
  
-###  [Sample Response](#response) : : 
+###  [Sample Response](#response) :  
 
 `[
      {
