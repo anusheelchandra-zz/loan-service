@@ -14,21 +14,21 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 public class MonthlyRepayment {
 
-    @ApiModelProperty(notes = "Borrower payment amount", required =true)
-    private BigDecimal borrowerPaymentAmount;
+  @ApiModelProperty(notes = "Borrower payment amount", required = true)
+  private BigDecimal borrowerPaymentAmount;
 
-    @ApiModelProperty(notes = "Payment Date", required =true)
-    private LocalDateTime date;
+  @ApiModelProperty(notes = "Payment Date", required = true)
+  private LocalDateTime date;
 
-    @ApiModelProperty(notes = "Interest charged", required =true)
-    private BigDecimal interest;
+  @ApiModelProperty(notes = "Interest charged", required = true)
+  private BigDecimal interest;
 
-    @ApiModelProperty(notes = "Principal amount", required =true)
-    private BigDecimal principal;
+  @ApiModelProperty(notes = "Principal amount", required = true)
+  private BigDecimal principal;
 
-    @ApiModelProperty(notes = "Initial outstanding principal amount", required =true)
-    private BigDecimal initialOutstandingPrincipal;
+  @ApiModelProperty(notes = "Initial outstanding principal amount", required = true)
+  private BigDecimal initialOutstandingPrincipal;
 
-    @ApiModelProperty(notes = "Remaining outstanding principal amount", required =true)
-    private BigDecimal remainingOutstandingPrincipal;
+  @ApiModelProperty(notes = "Remaining outstanding principal amount", required = true)
+  private BigDecimal remainingOutstandingPrincipal;
 }

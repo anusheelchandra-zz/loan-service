@@ -47,9 +47,10 @@ public class LoanPlanGeneratorService {
         && loanRequest.getDurationInMonth() != null
         && loanRequest.getLoanAmount() != null
         && loanRequest.getStartDate() != null) {
-      return ;
+      return;
     }
-    throw new ValidationException("Invalid Loan Request. One or more mandatory parameters are null.");
+    throw new ValidationException(
+        "Invalid Loan Request. One or more mandatory parameters are null.");
   }
 
   private BigDecimal getNominalRate(LoanRequest loanRequest) {

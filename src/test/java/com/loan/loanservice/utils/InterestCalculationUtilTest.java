@@ -10,7 +10,8 @@ public class InterestCalculationUtilTest {
 
   @Test
   public void shouldCalculateInterest() {
-    BigDecimal interest = InterestCalculationUtil.calculateInterest(new BigDecimal(5000), new BigDecimal(0.05));
+    BigDecimal interest =
+        InterestCalculationUtil.calculateInterest(new BigDecimal(5000), new BigDecimal(0.05));
     Assertions.assertThat(interest).isEqualTo(20.83);
   }
 

@@ -19,18 +19,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequiredArgsConstructor
 @RestController
-@Api(value="Loan Controller", description="Operation related to Loan Plan Generation API")
+@Api(value = "Loan Controller", description = "Operation related to Loan Plan Generation API")
 public class LoanController {
 
-    private final LoanPlanGeneratorService loanPlanGeneratorService;
+  private final LoanPlanGeneratorService loanPlanGeneratorService;
 
-    @PostMapping("/generate-plan")
-    @ResponseStatus(HttpStatus.CREATED)
-    @ApiOperation(value = "Loan Plan Generator")
-    @ApiResponses(value = {@ApiResponse(code = 201, message = "Plan Created")})
-    public ResponseEntity<List<MonthlyRepayment>> generateLoanPlan(@RequestBody @Valid LoanRequest loanRequest) {
-        List<MonthlyRepayment> monthlyRepayments = loanPlanGeneratorService.generateLoanPlan(loanRequest);
-        return new ResponseEntity<List<MonthlyRepayment>>(monthlyRepayments, HttpStatus.CREATED);
-    }
-
+  @PostMapping("/generate-plan")
+  @ResponseStatus(HttpStatus.CREATED)
+  @ApiOperation(value = "Loan Plan Generator")
+  @ApiResponses(value = {@ApiResponse(code = 201, message = "Plan Created")})
+  public ResponseEntity<List<MonthlyRepayment>> generateLoanPlan(
+      @RequestBody @Valid LoanRequest loanRequest) {
+    List<MonthlyRepayment> monthlyRepayments =
+        loanPlanGeneratorService.generateLoanPlan(loanRequest);
+    return new ResponseEntity<List<MonthlyRepayment>>(monthlyRepayments, HttpStatus.CREATED);
+  }
 }

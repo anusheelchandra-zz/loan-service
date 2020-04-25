@@ -14,18 +14,18 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 @EnableSwagger2
 public class GeneralApplicationConfiguration {
 
-    @Bean
-    public LocalValidatorFactoryBean validator(MessageSource messageSource) {
-        LocalValidatorFactoryBean validatorFactoryBean = new LocalValidatorFactoryBean();
-        validatorFactoryBean.setValidationMessageSource(messageSource);
-        return validatorFactoryBean;
-    }
+  @Bean
+  public LocalValidatorFactoryBean validator(MessageSource messageSource) {
+    LocalValidatorFactoryBean validatorFactoryBean = new LocalValidatorFactoryBean();
+    validatorFactoryBean.setValidationMessageSource(messageSource);
+    return validatorFactoryBean;
+  }
 
-    @Bean
-    public Docket api() {
-        return new Docket(DocumentationType.SWAGGER_2)
-            .select()
-            .paths(Predicates.not(PathSelectors.regex("/error"))) // Exclude Spring error controllers
-            .build();
-    }
+  @Bean
+  public Docket api() {
+    return new Docket(DocumentationType.SWAGGER_2)
+        .select()
+        .paths(Predicates.not(PathSelectors.regex("/error"))) // Exclude Spring error controllers
+        .build();
+  }
 }
