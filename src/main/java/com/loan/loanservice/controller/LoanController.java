@@ -11,6 +11,7 @@ import java.util.List;
 import javax.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -24,7 +25,10 @@ public class LoanController {
 
   private final LoanPlanGeneratorService loanPlanGeneratorService;
 
-  @PostMapping("/generate-plan")
+  @PostMapping(
+      value = "/generate-plan",
+      consumes = MediaType.APPLICATION_JSON_VALUE,
+      produces = MediaType.APPLICATION_JSON_VALUE)
   @ResponseStatus(HttpStatus.CREATED)
   @ApiOperation(value = "Loan Plan Generator")
   @ApiResponses(value = {@ApiResponse(code = 201, message = "Plan Created")})
