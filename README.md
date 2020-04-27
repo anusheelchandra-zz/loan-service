@@ -44,7 +44,7 @@ loan plan which is a list of loan repayments and would look similar to [loan res
  ]` 
 
 ###  [Tech Stack](#tech-stack)
-We have used Java 8, Spring Boot an maven to build this microservice. 
+We have used Java 8, Spring Boot and maven to build this microservice with IntelliJ IDE with goggle code formatting plugin. 
 It uses lombok, jUnit 5, mockito and assertJ library for code generation(getter/setter/builders etc) and testing purposes. 
 
 
