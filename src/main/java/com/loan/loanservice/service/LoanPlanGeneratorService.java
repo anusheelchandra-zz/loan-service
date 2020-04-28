@@ -62,7 +62,7 @@ public class LoanPlanGeneratorService {
       MonthlyRepayment payment,
       BigDecimal nominalRate,
       BigDecimal annuity) {
-    if (payment.getRemainingOutstandingPrincipal().doubleValue() > 0) {
+    if (payment.getRemainingOutstandingPrincipal().compareTo(BigDecimal.ZERO) > 0) {
       BigDecimal initialOutstandingPrincipal = payment.getRemainingOutstandingPrincipal();
       BigDecimal calculateInterest =
           InterestCalculationUtil.calculateInterest(initialOutstandingPrincipal, nominalRate);

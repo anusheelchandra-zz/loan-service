@@ -88,7 +88,7 @@ public class LoanControllerIT {
     Assertions.assertThat(mvcResult.getResolvedException())
         .isInstanceOf(MethodArgumentNotValidException.class);
     Assertions.assertThat(mvcResult.getResolvedException().getMessage())
-        .contains("[loanAmount]]; default message [must not be null]");
+        .contains("loanAmount]]; default message [Loan amount must not null]");
   }
 
   @Test
@@ -129,7 +129,7 @@ public class LoanControllerIT {
     Assertions.assertThat(mvcResult.getResolvedException())
         .isInstanceOf(MethodArgumentNotValidException.class);
     Assertions.assertThat(mvcResult.getResolvedException().getMessage())
-        .contains("[nominalRate]]; default message [must not be null]");
+        .contains("[nominalRate]]; default message [NominalRate(annual) must not null]");
   }
 
   @Test
@@ -149,7 +149,7 @@ public class LoanControllerIT {
     Assertions.assertThat(mvcResult.getResolvedException())
         .isInstanceOf(MethodArgumentNotValidException.class);
     Assertions.assertThat(mvcResult.getResolvedException().getMessage())
-        .contains("[startDate]]; default message [must be a date in the present or in the future]");
+        .contains("[startDate]]; default message [must be a future date]");
   }
 
   @Test
@@ -169,7 +169,7 @@ public class LoanControllerIT {
     Assertions.assertThat(mvcResult.getResolvedException())
         .isInstanceOf(MethodArgumentNotValidException.class);
     Assertions.assertThat(mvcResult.getResolvedException().getMessage())
-        .contains("[startDate]]; default message [must not be null]");
+        .contains("[startDate]]; default message [Start date must not null]]");
   }
 
   @Test

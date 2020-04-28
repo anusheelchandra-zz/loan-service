@@ -12,13 +12,13 @@ public class InterestCalculationUtilTest {
   public void shouldCalculateInterest() {
     BigDecimal interest =
         InterestCalculationUtil.calculateInterest(new BigDecimal(5000), new BigDecimal(0.05));
-    Assertions.assertThat(interest).isEqualTo(20.83);
+    Assertions.assertThat(interest).isEqualTo(BigDecimal.valueOf(20.83));
   }
 
   @Test
   public void shouldCalculateAnnuity() {
     BigDecimal annuity = InterestCalculationUtil.calculateAnnuity(getLoanRequest());
-    Assertions.assertThat(annuity).isEqualTo(219.36);
+    Assertions.assertThat(annuity).isEqualTo(BigDecimal.valueOf(219.36));
   }
 
   private LoanRequest getLoanRequest() {
